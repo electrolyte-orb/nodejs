@@ -1,0 +1,24 @@
+{
+	"name": "nodejs",
+	"version": "1.0.0",
+	"description": "this is a waste of repos..",
+	"main": "script.js",
+	"scripts": {
+		"build": "babel script.js -d lib"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/electrolyte-orb/nodejs.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/electrolyte-orb/nodejs/issues"
+	},
+	"homepage": "https://github.com/electrolyte-orb/nodejs#readme",
+	"devDependencies": {
+		"@babel/cli": "^7.10.5",
+		"@babel/core": "^7.11.4",
+		"@babel/preset-env": "^7.11.0"
+	}
+}

@@ -25,3 +25,6 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: npm i --save-dev
       - run: npm run build
+      - run: git add .
+      - run: git commit
+      - run: git push
